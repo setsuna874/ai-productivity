@@ -1,0 +1,168 @@
+{
+  "checkedAt": "2026-10-10",
+  "description": "Historical teaching dataset; not latest statistics",
+  "fields": [
+    "indicator",
+    "period",
+    "value",
+    "unit",
+    "type",
+    "sourceId"
+  ],
+  "sources": [
+    {
+      "id": "policy",
+      "title": "新质生产力的内涵",
+      "org": "国家发展改革委 · 重要论述",
+      "year": "2024 年论述 / 2026 年转载",
+      "url": "https://www.ndrc.gov.cn/xwdt/ztzl/NEW_srxxgcjjpjjsx/jjsxyjqk/qkzk/qkzk2025/4/zyjh/202601/t20260106_1403075.html",
+      "scope": "用于概念框架，不作为量化数据。"
+    },
+    {
+      "id": "economy",
+      "title": "The 2025 AI Index Report · Economy",
+      "org": "Stanford HAI",
+      "year": "2025 报告 / 2023–2024 数据",
+      "url": "https://hai.stanford.edu/ai-index/2025-ai-index-report/economy",
+      "scope": "组织 AI 使用率为调查受访者报告；投资为全球生成式 AI 私人投资。"
+    },
+    {
+      "id": "cost",
+      "title": "AI Index 2025 · State of AI in 10 Charts",
+      "org": "Stanford HAI",
+      "year": "2025 报告 / 2022–2024 数据",
+      "url": "https://hai.stanford.edu/news/ai-index-2025-state-of-ai-in-10-charts",
+      "scope": "推理成本比较的是达到特定 MMLU 性能的系统，不是同一模型随时间降价；地区投资仅私人 AI 投资。"
+    },
+    {
+      "id": "work",
+      "title": "Generative AI at Work · Working Paper 31161",
+      "org": "NBER · Brynjolfsson, Li & Raymond",
+      "year": "2023 工作论文版本",
+      "url": "https://www.nber.org/papers/w31161",
+      "scope": "5,179 名客服人员；效率指标为每小时解决的问题数。平均 +14%，新手及低技能组 +34%；并非所有职业的因果效果。"
+    },
+    {
+      "id": "protein",
+      "title": "AlphaFold · Protein Structure Database",
+      "org": "Google DeepMind",
+      "year": "数据库规模 / 查阅于 2026-10-10",
+      "url": "https://deepmind.google/science/alphafold/",
+      "scope": "超过 2 亿个预测蛋白质结构；预测结构不等同于实验验证，也不等同于药物获批。"
+    },
+    {
+      "id": "energy",
+      "title": "Energy and AI · Executive summary",
+      "org": "IEA",
+      "year": "2025 报告 / 2024 估计及 2030 预测",
+      "url": "https://www.iea.org/reports/energy-and-ai/executive-summary",
+      "scope": "全部数据中心用电，含 AI 与非 AI；2030 数值为基准情景预测，不是已实现结果。"
+    }
+  ],
+  "records": [
+    [
+      "组织 AI 使用率",
+      2023,
+      55,
+      "%",
+      "调查统计",
+      "economy"
+    ],
+    [
+      "组织 AI 使用率",
+      2024,
+      78,
+      "%",
+      "调查统计",
+      "economy"
+    ],
+    [
+      "生成式 AI 私人投资",
+      2024,
+      33.9,
+      "十亿美元",
+      "公开统计",
+      "economy"
+    ],
+    [
+      "美国私人 AI 投资",
+      2024,
+      109.1,
+      "十亿美元",
+      "公开统计",
+      "cost"
+    ],
+    [
+      "中国私人 AI 投资",
+      2024,
+      9.3,
+      "十亿美元",
+      "公开统计",
+      "cost"
+    ],
+    [
+      "英国私人 AI 投资",
+      2024,
+      4.5,
+      "十亿美元",
+      "公开统计",
+      "cost"
+    ],
+    [
+      "同等基准性能推理成本",
+      "2022-11",
+      20,
+      "美元/百万 tokens",
+      "基准比较",
+      "cost"
+    ],
+    [
+      "同等基准性能推理成本",
+      "2024-10",
+      0.07,
+      "美元/百万 tokens",
+      "基准比较",
+      "cost"
+    ],
+    [
+      "客服平均生产率提升",
+      2023,
+      14,
+      "%",
+      "研究结果",
+      "work"
+    ],
+    [
+      "客服新手及低技能组提升",
+      2023,
+      34,
+      "%",
+      "研究结果",
+      "work"
+    ],
+    [
+      "预测蛋白质结构数量",
+      "数据库规模",
+      200000000,
+      "个以上",
+      "数据库规模",
+      "protein"
+    ],
+    [
+      "全球数据中心用电",
+      2024,
+      415,
+      "TWh",
+      "报告估计",
+      "energy"
+    ],
+    [
+      "全球数据中心用电",
+      2030,
+      945,
+      "TWh",
+      "基准情景预测",
+      "energy"
+    ]
+  ]
+}
